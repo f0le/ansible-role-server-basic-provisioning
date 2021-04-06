@@ -1,0 +1,4 @@
+---
+# tasks file for server-basic
+
+- include_tasks: basic_provisioning.yml

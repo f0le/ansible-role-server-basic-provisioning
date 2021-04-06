@@ -1,0 +1,7 @@
+---
+# defaults file for server-basic-provisioning
+
+root_password: "$password"
+ansible_password: "$password"
+permanent_salt: "$salt" # if a salt is provided for the passwords, hosts won't be "changed" after task completion
+domain_name: "$domain"
